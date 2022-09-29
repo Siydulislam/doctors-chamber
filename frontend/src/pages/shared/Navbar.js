@@ -5,17 +5,17 @@ const Navbar = () => {
 
     const menuItems = (
         <>
-            <li><Link to="/" className="rounded-lg text-xl">Home</Link></li>
-            <li><Link to="/appoinment" className="rounded-lg text-xl">Appointment</Link></li>
-            <li><Link to="/review" className="rounded-lg text-xl">Review</Link></li>
-            <li><Link to="/about" className="rounded-lg text-xl">About</Link></li>
-            <li><Link to="/contuct" className="rounded-lg text-xl">Contact</Link></li>
-            <li><Link to="/login" className="rounded-lg text-xl">Login</Link></li>
+            <li><Link to="/" className="rounded-lg text-lg">Home</Link></li>
+            <li><Link to="/appoinment" className="rounded-lg text-lg">Appointment</Link></li>
+            <li><Link to="/review" className="rounded-lg text-lg">Review</Link></li>
+            <li><Link to="/about" className="rounded-lg text-lg">About</Link></li>
+            <li><Link to="/contuct" className="rounded-lg text-lg">Contact</Link></li>
+            <li><Link to="/login" className="rounded-lg text-lg">Login</Link></li>
         </>
     );
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 px-12">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
